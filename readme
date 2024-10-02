@@ -1,0 +1,68 @@
+# WhatsApp Clone in Erlang
+
+This project is a simplified version of a messaging application inspired by WhatsApp, implemented in Erlang. It demonstrates the use of processes for handling users and messages, showcasing the scalability and reliability of Erlang in building concurrent applications.
+
+## Features
+
+- User management: Join and leave the chat room.
+- Messaging: Send messages between users.
+- Concurrent processing: Handle multiple users simultaneously.
+
+## Getting Started
+
+To run this project, you'll need to have Erlang installed on your machine. You can download it from [Erlang's official website](https://www.erlang.org/downloads).
+
+### Prerequisites
+
+- Erlang/OTP installed (version 24 or later is recommended).
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/whatsapp-clone-erlang.git
+   cd whatsapp-clone-erlang
+
+    Compile the Erlang modules:
+
+    erlang
+
+    erl
+    1> c(user).
+    2> c(chat_room).
+    3> c(main).
+
+Usage
+
+    Start the main application:
+
+    erlang
+
+    4> main:start().
+
+    Observe the messages and interactions in the console.
+
+Code Structure
+
+    user.erl: Contains the user management logic, including message handling.
+    chat_room.erl: Manages the chat room, handling user joins, leaves, and message broadcasting.
+    main.erl: The entry point for the application, initializing users and the chat room.
+
+Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any improvements or suggestions.
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgments
+
+    Thanks to the Erlang community for providing a robust platform for building concurrent applications.
+
+markdown
+
+
+- **License**: If you’re using a specific license, ensure that the `LICENSE` file is included in your repository.
+- **Features**: Add any additional features you have implemented in your project.
+- **Contributing**: Update the contributing section if you have specific guidelines or rules for contributions.
+
